@@ -118,6 +118,8 @@ snapshot backfill과 실시간 processor가 같은 구간을 동시에 반영하
 
 초기화 도중 입력을 멈출 수 없다면 offset 범위를 명시한 immutable snapshot을 사용해야 합니다. ClickHouse 테이블의 실행 시점만 기록한 backfill은 전환 경계로 사용하지 않습니다.
 
+현재 22,100,000개 dedup state의 이벤트·고객 그룹 summary를 새 replicated target에 shard 병렬로 전체 생성하면 49초가 걸렸습니다. 따라서 periodic refresh를 임시안으로 사용할 경우 refresh 간격 `I`에 대한 실제 가시성 지연은 약 `49초~(I+49초)`입니다. 이 수치는 현재 lab 데이터와 자원의 측정값이며, 입력 증가율과 보존 기간에 따라 반복 측정해야 합니다.
+
 ## 실패 처리와 reconciliation
 
 ### 재시도와 격리
