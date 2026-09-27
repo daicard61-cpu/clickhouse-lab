@@ -1,0 +1,974 @@
+[
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "initial",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "replay",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "late",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "combined",
+    "phase": "after_merge",
+    "window": "1h",
+    "method": "wide_merge_if",
+    "passed": true,
+    "wrong_minute_sum": 3,
+    "correct_hour_unique": 2
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "initial",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "replay",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "late",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "exact",
+    "phase": "after_merge",
+    "window": "1h",
+    "method": "wide_merge_if",
+    "passed": true,
+    "wrong_minute_sum": 3,
+    "correct_hour_unique": 2
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "initial",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "replay",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "minute_aligned",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "cross_hour",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "cross_day",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "partial_hour",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "partial_second",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "partial_millisecond",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "empty",
+    "method": "hybrid",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "empty",
+    "method": "1m",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "late",
+    "window": "empty",
+    "method": "1h",
+    "passed": true
+  },
+  {
+    "case": "bitmap",
+    "phase": "after_merge",
+    "window": "1h",
+    "method": "wide_merge_if",
+    "passed": true,
+    "wrong_minute_sum": 3,
+    "correct_hour_unique": 2
+  }
+]

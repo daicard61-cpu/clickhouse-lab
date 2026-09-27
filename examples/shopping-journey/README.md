@@ -65,3 +65,7 @@ RDS는 클러스터 비교 케이스 중 A1에만 사용합니다. A1은 standal
 - [기대 기준](./expected/README.md): 데이터 결과, 성능, 가용성·복구를 분리해 단일 노드와 A1~A7을 평가합니다.
 
 다음 구현은 A1 배치, A5·A6 summary 갱신·보정과 A7 이벤트별 Replacing 구조입니다. A2·A3·A4는 현재 예비 성능 결과를 바탕으로 운영 자원과 동시성 조건에서 다시 측정합니다.
+
+## 실제 placement funnel 규모 검증
+
+월 10억 event·최대 2년 보관을 전제로 통합 event/최초 tuple 상태와 이벤트별 MergeTree → 1분/1시간 unique state를 비교하는 [독립 벤치마크](./funnel-benchmark/README.md)를 추가했습니다. 현재 구조 분석, 재현 명령, DDL, 정확도·리소스 측정과 실제 결과를 함께 제공합니다.

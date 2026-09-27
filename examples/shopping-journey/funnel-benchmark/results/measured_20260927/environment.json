@@ -1,0 +1,43 @@
+{
+  "metadata": [
+    {
+      "version": "26.9.1.1357",
+      "timezone": "UTC"
+    },
+    {
+      "name": "max_threads",
+      "value": "2"
+    },
+    {
+      "name": "max_bytes_before_external_group_by",
+      "value": "300000000"
+    },
+    {
+      "name": "max_execution_time",
+      "value": "90"
+    },
+    {
+      "name": "max_memory_usage",
+      "value": "1500000000"
+    },
+    {
+      "name": "async_insert",
+      "value": "0"
+    }
+  ],
+  "scale": [
+    1000000,
+    5000000,
+    10000000
+  ],
+  "placements": [
+    1,
+    10,
+    100,
+    1000,
+    2000
+  ],
+  "repeats": 3,
+  "batch": 100000,
+  "scope": "one pod, non-replicated engines, sequential cases; shared host with existing cluster"
+}
